@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.App {
+  padding: 30px;
+}
+table {
+  color: #808080;
+  font-family: 'Ubuntu', Sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  border-spacing: 0;
+}
+td, th {
+  vertical-align: middle;
+  text-align: left;
+  padding: 6px 6px;
+}
+th {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+.track-name {
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  display: block;
+  width: 60px;
+  height: 20px;
+  border: 1px solid #7E7E7E;
+  border-radius: 4px;
+  font-family: 'Ubuntu Mono';
+  color: #7E7E7E;
+  text-align: center;
+  line-height: 20px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #FAFAFA;
+}
+.name {
+  width: 400px;
+  color: black;
+  font-size: 14px;
+  letter-spacing: -0.2px;
+}
+.image {
+  width: 55px;
+}
+.artist {
+  width: 300px;
+}
+img {
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin-right: 0;
+  margin-left: auto;
+  border-radius: 5px;
+}
